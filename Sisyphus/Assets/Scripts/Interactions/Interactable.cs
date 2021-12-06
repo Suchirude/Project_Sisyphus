@@ -6,6 +6,11 @@ public class Interactable : MonoBehaviour
 {
     public Dialogue dialogue;
     public GameObject Prompt;
+    public bool Fights;
+
+    public static bool TriggersFight;
+
+   
 
     public static bool IsTalking;
     bool IsInRange;
@@ -25,6 +30,10 @@ public class Interactable : MonoBehaviour
                 {
                     TriggerDialogue();
                     IsTalking = true;
+                    if (Fights)
+                    {
+                        TriggersFight = true;
+                    }
                 }
                 else if (IsTalking)
                 {

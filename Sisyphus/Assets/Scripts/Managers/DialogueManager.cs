@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -62,5 +63,13 @@ public class DialogueManager : MonoBehaviour
         PlayerMovement.currentState = PlayerMovement.PlayerStates.NotTalking;
         Interactable.IsTalking = false;
         anim.SetBool("Open", false);
+        if (Interactable.TriggersFight)
+        {
+            SceneManager.LoadScene(1);
+        }
+        else
+        {
+            return;
+        }
     }
 }
