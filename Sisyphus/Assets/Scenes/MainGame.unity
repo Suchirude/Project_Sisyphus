@@ -364,6 +364,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerSpeed: 10
+  PlayerLevel: 1
+  PlayerHealth: 100
 --- !u!61 &452418968
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9393,11 +9395,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4764663342854812663, guid: d204533ea76cd304e8c7e2f99b828a02, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.0443406
+      value: -5.1
       objectReference: {fileID: 0}
     - target: {fileID: 4764663342854812663, guid: d204533ea76cd304e8c7e2f99b828a02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.30891657
+      value: -0.31
       objectReference: {fileID: 0}
     - target: {fileID: 4764663342854812663, guid: d204533ea76cd304e8c7e2f99b828a02, type: 3}
       propertyPath: m_LocalPosition.z
