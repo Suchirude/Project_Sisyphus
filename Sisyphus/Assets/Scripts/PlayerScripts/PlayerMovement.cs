@@ -39,6 +39,5 @@ public class PlayerMovement : MonoBehaviour
         #endregion
     }
     
-
     void MovePlayer() => rb.MovePosition(rb.position + movement.normalized * PlayerSpeed * Time.fixedDeltaTime);
 }

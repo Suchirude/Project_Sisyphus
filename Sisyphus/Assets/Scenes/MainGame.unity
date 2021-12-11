@@ -165,7 +165,7 @@ Transform:
   m_Children:
   - {fileID: 1744004800}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &256981990
 GameObject:
@@ -227,7 +227,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 256981990}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38, y: -1.95, z: -10}
+  m_LocalPosition: {x: 1.58, y: -0.77, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2082960660}
@@ -470,7 +470,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 452418966}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38, y: -1.95, z: 0}
+  m_LocalPosition: {x: 1.58, y: -0.77, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -588,7 +588,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.38, y: -1.95, z: -10}
+  m_LocalPosition: {x: 1.58, y: -0.77, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1241,7 +1241,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1304438521
 GameObject:
@@ -1254,9 +1254,10 @@ GameObject:
   - component: {fileID: 1304438524}
   - component: {fileID: 1304438523}
   - component: {fileID: 1304438522}
+  - component: {fileID: 1304438526}
   - component: {fileID: 1304438525}
   m_Layer: 0
-  m_Name: Monster
+  m_Name: BigChick
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1342,7 +1343,7 @@ Transform:
   m_Children:
   - {fileID: 614186774}
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1304438525
 MonoBehaviour:
@@ -1365,6 +1366,22 @@ MonoBehaviour:
     - Let's go!
   Prompt: {fileID: 614186772}
   Fights: 1
+--- !u!58 &1304438526
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1304438521}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: -0.15}
+  serializedVersion: 2
+  m_Radius: 0.35
 --- !u!1 &1744004799
 GameObject:
   m_ObjectHideFlags: 0
@@ -9319,6 +9336,10 @@ PrefabInstance:
       value: Ben
       objectReference: {fileID: 0}
     - target: {fileID: 4764663342854812657, guid: d204533ea76cd304e8c7e2f99b828a02, type: 3}
+      propertyPath: Fights
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4764663342854812657, guid: d204533ea76cd304e8c7e2f99b828a02, type: 3}
       propertyPath: dialogue.npcName
       value: Ben
       objectReference: {fileID: 0}
@@ -9488,11 +9509,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4764663342854812663, guid: d204533ea76cd304e8c7e2f99b828a02, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.44
+      value: -0.8
       objectReference: {fileID: 0}
     - target: {fileID: 4764663342854812663, guid: d204533ea76cd304e8c7e2f99b828a02, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.11
+      value: 2.94
       objectReference: {fileID: 0}
     - target: {fileID: 4764663342854812663, guid: d204533ea76cd304e8c7e2f99b828a02, type: 3}
       propertyPath: m_LocalPosition.z

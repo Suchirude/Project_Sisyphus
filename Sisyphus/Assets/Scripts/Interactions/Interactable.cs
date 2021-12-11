@@ -10,8 +10,6 @@ public class Interactable : MonoBehaviour
 
     public static bool TriggersFight;
 
-   
-
     public static bool IsTalking;
     bool IsInRange;
 
